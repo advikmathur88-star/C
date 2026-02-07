@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Letter Just for You ❤️</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+    }
+    .card {
+      background: white;
+      width: 90%;
+      max-width: 520px;
+      padding: 28px 26px 32px;
+      border-radius: 18px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+      text-align: center;
+      animation: fadeIn 1.2s ease;
+    }
+    h1 {
+      margin-top: 0;
+      color: #e63946;
+      font-size: 2rem;
+    }
+    .heart {
+      font-size: 2.2rem;
+      animation: pulse 1.4s infinite;
+    }
+    p {
+      color: #333;
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin: 16px 0;
+    }
+    .from {
+      margin-top: 24px;
+      font-weight: 600;
+      color: #555;
+    }
+    footer {
+      margin-top: 22px;
+      font-size: 0.85rem;
+      color: #888;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+      100% { transform: scale(1); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="heart">❤️</div>
+    <h1>Hey You</h1>
+    <p>
+      If you’re reading this, it means you scanned the QR… and that already
+      makes me smile. I just wanted you to know that you matter a lot to me.
+    </p>
+    <p>
+      Your presence makes ordinary days feel special, and somehow everything
+      feels lighter when you’re around. This little website is my small way of
+      saying what I don’t always say out loud.
+    </p>
+    <p>
+      Keep smiling. Don’t ever forget how amazing you are.
+    </p>
+    <div class="from">— From someone who cares 💫</div>
+    <footer>Made with ❤️ just for you</footer>
+  </div>
+</body>
+</html>
